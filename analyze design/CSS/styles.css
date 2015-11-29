@@ -1,0 +1,204 @@
+/*
+Name: Rajmatie Arjune
+Date: July 30th, 2015
+Assignment: Contact Manager App
+*/
+
+.container {
+	padding: 20px;
+	background-color: #80E0FF;
+	margin-left: 8%;
+	margin-top: 40px;
+	
+}
+
+.header{
+	background-color: #FFFFFF;
+	background-size: cover;	
+	padding: 3px;
+	color: #000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #FFFFFF;
+	font-size: 1.75em;
+	}
+	
+h2{
+	color: #c7b299;
+	font-size: 1.5em;
+	text-align: left;
+	margin-left: 10px;
+	}
+
+body {
+	margin: 0;
+	width: 90%;
+	font-size: 1em;
+	line-height: 1.231;
+	background-image: url(../images/background.jpg);
+	background-size: auto;
+	
+	 }
+	 
+#logo{
+	position: absolute;
+	float: left;
+	clear: both;
+	width: 500px;
+	padding: 1px;
+}
+
+.buttons{
+	float: right;
+	position: static;
+	clear: both;
+	padding-top: 3px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	}
+	
+.box{
+	size: 500px;
+	padding: 20px;
+	padding-left: 30px;	
+	text-align: center;
+	
+	
+	}
+	
+#login{
+	background-color: #c7b299;
+	width: auto;
+	padding: 10px;
+	padding-left: 20px;	
+	text-align: right;
+	padding-right: 500px;
+
+	}
+	
+
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	}
+	
+#modal {
+	width: 350px;
+	background: #CCC;
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	z-index: 1001;
+	display: none;
+	}
+	
+#modal .header {
+	background: #333;
+	color: #FFF;
+	padding: 10px;
+	
+	}
+	
+#modal p {
+	margin: 15px;
+	}
+	
+#modal .close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size:16px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #F00;
+	}
+
+form {
+	padding: 10px;
+	}
+	
+form.input {
+	padding: 10px;
+	}
+	
+header {
+	width: 960px
+	}
+
+.userid{
+	padding-left: 5px;
+	padding-top: 3px;
+	}
+.logoutbox{
+	width: 400px;
+	float: right;
+	}
+.plus{
+	float: left;
+	padding-left: 30px;
+	background-color: #FFFFFF;
+	width: 930px;
+	}
+.mystatus > input[type=radio]{
+	display: none;
+	}
+
+input{
+    color: #052858;
+	margin-top: 12px;
+	border-radius: 8px;
+	padding:4px;
+    }
+
+input[type=radio]:checked + img{
+	border: 2px solid #f00;
+}
+
+#tabs {
+	background-color: #999;
+	width: 600px;
+	height: 150px;
+	padding: 20px;
+	}
+
+#tabs-nav{
+	width: 600px;
+	height: 75px;
+	padding: 20px;
+	background-color: #999;
+	text-decoration: none;
+	list-style-type: none;
+	}
+	
+#tabs-nav li {
+	display: inline;
+	}
+	
+.tooltip {
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+	}
+	

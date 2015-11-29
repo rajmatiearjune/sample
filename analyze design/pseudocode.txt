@@ -1,0 +1,26 @@
+Name: Rajmatie Arjune
+Date: July 30th, 2015
+Assignment: Analyze Design Contact Manager App - Pseudo Code
+CRUD - method
+
+Create and read
+1. Application loads display main page client.php
+2. User creates new record with save function
+3. Save option connects to mySql database
+4. If save request method is successful
+5. Results inserts into database, and echo record to webpage
+6. Else echo error message
+
+Update
+7. Update link accesses record/database thorough update.php
+8. If record validation cancel
+9. Echo error message
+10. Else update function is executes
+11. Database update and echo to client.php
+
+Delete
+12. When delete is clicked request passes to delete.php  
+13. Delete prompts validation function
+14. If click yes, record is deleted from database
+15. Else if click no, page refreshed to client.php
+
