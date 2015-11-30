@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+	padding: 15px;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+.header{
+	background-color: #000000;
+	background-size:cover;
+	padding-top:15px;
+	padding-left:15px;
+	
+	color: #F9C600;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+	
+#gallery{
+	text-align: center;
+	
+	
+	}  
+	
+.footer{
+	   position: fixed;
+	   bottom:0;
+	   width:100%;
+	   height:40px; 
+	   background:#6cf;
+	   text-align: center;
+	   padding-top: 20px;
+
+	}
+
+h1{
+	color: #000000;
+	font-size: 1.35em;
+	}
+
+	
+h5{
+	text-align: center;
+	padding-bottom: 5%;
+	}
+	
+h7{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	}
+
+body{
+	background-color: #FFFFFF;	
+	}
+	
+#first{
+	width: 100%;
+	text-align:center;
+	}
+		
+.resultsLink{
+	width: 100%;
+	text-align:right;
+
+	}
+	
+#results{
+	float: left;
+	clear: both;
+	}
+	
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:5px solid #ACD8F0;
+	border-radius: 4px;
+    overflow:auto; 
+	}
+
+.box{
+	width: 100%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 15%;
+	text-align:justify;
+	
+	}
+	
+
+/*links */
+a:hover, a:active {
+	outline: 0; 
+	}
+
+a:link {
+	color: #990000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #FFFFFF;
+	background-size: auto;
+	border-color: #999999;
+	border-radius: 1px;
+	margin-left: 5%;
+	margin-right: 5%;	
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+
+
+#tabs {
+	background-color: rgb(255,255,204);
+	width: auto;
+	height: 110px;
+	padding: 20px;
+	}
+
+article, aside, details, figcaption, figure, footer, hgroup, { 
+	display: inline-block; 
+	float: right;
+	clear: right;
+	padding: 5px;
+	width: 0 auto;
+	border:thin;
+	}
+
+input[type=text]{
+	margin-bottom: 10px;
+	width: 40%;
+	padding: 5px;
+	border-radius:5px;
+	border:1px solid #7AC9B7;
+}
+
+
+textarea {
+	overflow: visible;
+	vertical-align: top;
+	resize: vertical;
+	
+}
+	
+form{
+	width: 100%;
+	float: left;
+	margin-bottom: 5%;
+	padding-right: 30%;
+	text-align: right;
+	}
+	
+	
+.buttons{
+	text-align: center;
+	font-size: 2em;
+	color: #0099FF;
+	
+	}
+	
+
+#Canvas1{
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 80%;
+	text-align: center;
+	}  
+
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+.nav{
+	text-align: center;
+	width: 100%;
+	}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 30px;
+  height: 30px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: list-item;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #2DA9F0;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color:  #444;
+  cursor: default;
+}
+
+.nav a:visited {
+	color: #FF9900;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  .nav li {
+    display:  inline-block;
+    margin-right: -4px;
+  }
+ 
+
+}
